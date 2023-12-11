@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+.item1 { grid-area: header; background-color: red;}
+.item2 { grid-area: menu; background-color: orange;}
+.item3 { grid-area: main; background-color: yellow;}
+.item5 { grid-area: footer; background-color: blue;}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item1">This is my story</div>
+  <div class="item2">Navigation<ul>
+  <li><a href="index.html">About Me</a></li>
+  <li><a href="my school.html">My School</a></li>
+  <li><a href="my hobbies.html">My Hobbies</a></li>
+  <li><a href="singapore.html">My trip to Singapore</a></li>
+  <li><a href="australia.html">My trip to Australia</a></li></li>
+</ul></div>
+  <div class="item3">My hobbies are sports and exercising(calisthenics and weightlifting). I want to be the best version of my self.<br> I want to be healthy and not have health problems when I am old.<br><img src="Screenshot 2023-12-09 194618.jpg"></div>  
+  <div class="item5">Made by Russell Labaya</div>
+</div>
+
+</body>
+</html>
